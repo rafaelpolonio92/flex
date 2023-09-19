@@ -20,7 +20,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "relay": "relay-compiler"
   },
   "eslintConfig": {
     "extends": [
@@ -39,5 +40,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "babel-plugin-relay": "^15.0.0",
+    "graphql": "^16.8.1",
+    "relay-compiler": "^15.0.0"
   }
 }
