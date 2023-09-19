@@ -22,12 +22,12 @@ const VideoAnswerMedia = styled(CardMedia)({
 
 function Profile() {
   const profileData = {
-    name: 'John Doe',
+    name: 'Rafael Polonio',
     avatar: 'path_to_avatar.jpg',
     industry: 'Software Development',
     skills: [
-      { name: 'JavaScript', experience: '3 years' },
-      { name: 'React', experience: '2 years' },
+      { name: 'JavaScript', experience: '5 years' },
+      { name: 'React', experience: '4 years' },
     ],
     videoAnswers: [
       'path_to_video1.mp4',
